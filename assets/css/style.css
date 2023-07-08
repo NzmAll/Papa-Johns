@@ -2,6 +2,10 @@
   font-family: Roboto;
   src: url(../../assets/fonts/Roboto/Roboto-Black.ttf);
 }
+@font-face {
+  font-family: OpenSans;
+  src: url(../../assets/fonts/Open_Sans.zip);
+}
 .wrap-center {
   max-width: 95%;
   padding: 0 10px;
@@ -87,4 +91,44 @@
   line-height: 39px;
   border-radius: 4px;
   text-decoration: none;
-} /*# sourceMappingURL=style.css.map */
+}
+
+.stock-card-img {
+  float: left;
+  margin-bottom: 60px;
+  width: 40%;
+}
+.stock-card-img img {
+  width: 100%;
+}
+
+.stock-card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 60%;
+  margin-left: 40%;
+  padding-left: 50px;
+}
+.stock-card-text .title {
+  margin-bottom: 50px;
+}
+.stock-card-text .title span {
+  font-weight: 700;
+  line-height: 44px;
+  font-size: 42px;
+  color: #000000;
+}
+
+.facebook-share-wrapper {
+  margin: 10px 0;
+}
+.facebook-share-wrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn_face {
+  background: #3B5998;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
