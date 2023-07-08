@@ -3,9 +3,13 @@
   src: url(../../assets/fonts/Roboto/Roboto-Black.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: OpenSans;
   src: url(../../assets/fonts/Open_Sans.zip);
+}
+
+body {
+  margin-left: 50px;
 }
 
 .wrap-center {
@@ -102,17 +106,17 @@
   text-decoration: none;
 }
 
-.stock-card-img{
+.stock-card-img {
   float: left;
   margin-bottom: 60px;
   width: 40%;
 
-  img{
+  img {
     width: 100%;
   }
 }
 
-.stock-card-text{
+.stock-card-text {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -120,10 +124,10 @@
   margin-left: 40%;
   padding-left: 50px;
 
-  .title{
+  .title {
     margin-bottom: 50px;
 
-    span{
+    span {
       font-weight: 700;
       line-height: 44px;
       font-size: 42px;
@@ -135,13 +139,13 @@
 .facebook-share-wrapper {
   margin: 10px 0;
 
-  a{
+  a {
     text-decoration: none;
     color: white;
   }
 }
 
-.btn_face{
-  background: #3B5998;
+.btn_face {
+  background: #3b5998;
   font-size: 18px;
 }

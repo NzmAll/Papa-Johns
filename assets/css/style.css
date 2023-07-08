@@ -6,6 +6,10 @@
   font-family: OpenSans;
   src: url(../../assets/fonts/Open_Sans.zip);
 }
+body {
+  margin-left: 50px;
+}
+
 .wrap-center {
   max-width: 95%;
   padding: 0 10px;
@@ -129,6 +133,6 @@
 }
 
 .btn_face {
-  background: #3B5998;
+  background: #3b5998;
   font-size: 18px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
