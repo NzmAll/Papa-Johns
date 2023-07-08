@@ -35,3 +35,18 @@ const savedPromoCode = localStorage.getItem("promoCode");
 if (savedPromoCode) {
   promoCodeInput.value = savedPromoCode;
 }
+
+const slider = document.querySelector(".slider-items");
+const slideCount = slider.children.length;
+let currentPosition = 0;
+
+function slideNext() {
+  if (currentPosition === slideCount - 1) {
+    currentPosition = 0;
+  } else {
+    currentPosition++;
+  }
+  slider.style.transform = `translateX(${currentPosition * -100}%)`;
+}
+
+const slideInterval = setInterval(slideNext, 2000);

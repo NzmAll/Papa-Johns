@@ -135,4 +135,31 @@ body {
 .btn_face {
   background: #3b5998;
   font-size: 18px;
-} /*# sourceMappingURL=style.css.map */
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+}
+
+.slider-items {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+.slider-items a {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+.slider-items img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
