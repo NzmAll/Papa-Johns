@@ -1,8 +1,8 @@
 const promoCodeInput = document.querySelector(".js-promo-code");
-const promoText = document.querySelector(".row-default p");
-const promoSpan = document.querySelector(".row-default p span");
+const promoText = document.querySelector(".line-default p");
+const promoSpan = document.querySelector(".line-default p span");
 
-promoCodeInput.addEventListener("input", () => {
+promoCodeInput.addEventListener("fieldClass", () => {
   const promoCode = promoCodeInput.value;
   localStorage.setItem("promoCode", promoCode);
 });

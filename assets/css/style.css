@@ -14,7 +14,7 @@ body {
   position: relative;
   margin-right: 50px;
 }
-.wrap-center .row {
+.wrap-center .line {
   margin: 0;
 }
 
@@ -29,15 +29,16 @@ body {
   font-weight: 700;
   line-height: 34px;
   color: #363636;
+  margin-bottom: 25px;
 }
 .promo-c p span {
   color: #0f9675;
 }
-.promo-c .row {
+.promo-c .line {
   text-align: center;
   margin-top: 20px;
 }
-.promo-c .row-inp {
+.promo-c .line-fieldClass {
   position: relative;
   padding-top: 30px;
   padding-right: 73px;
@@ -45,14 +46,15 @@ body {
   display: inline-block;
   vertical-align: top;
   margin-left: 39px;
+  margin-bottom: 20px;
 }
-.promo-c .row-inp .btn {
+.promo-c .line-fieldClass .actionClass {
   position: absolute;
   top: 0;
   right: 0;
   margin-top: 30px;
 }
-.promo-c .inp {
+.promo-c .fieldClass {
   text-align: left;
 }
 
@@ -62,7 +64,7 @@ body {
   background: #f1f1f1;
 }
 
-.inp {
+.fieldClass {
   display: block;
   width: 90%;
   background: #ffffff;
@@ -75,12 +77,12 @@ body {
   padding: 0 10px;
 }
 
-.btn_green {
+.actionClass_green {
   padding: 0 21px;
   background: #0f9675;
 }
 
-.btn {
+.actionClass {
   display: inline-block;
   vertical-align: top;
   text-transform: uppercase;
@@ -132,12 +134,12 @@ body {
   color: white;
 }
 
-.btn_face {
+.actionClass_face {
   background: #3b5998;
   font-size: 18px;
 }
 
-.container {
+.wrapperClass {
   position: relative;
   width: 100%;
   overflow: hidden;
