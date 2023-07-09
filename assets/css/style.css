@@ -11,9 +11,8 @@ body {
 }
 
 .wrap-center {
-  max-width: 95%;
-  padding: 0 10px;
   position: relative;
+  margin-right: 50px;
 }
 .wrap-center .row {
   margin: 0;
@@ -36,6 +35,7 @@ body {
 }
 .promo-c .row {
   text-align: center;
+  margin-top: 20px;
 }
 .promo-c .row-inp {
   position: relative;
@@ -147,19 +147,23 @@ body {
   width: 100%;
   height: auto;
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .slider-items {
   display: inline-block;
   transition: transform 0.5s ease-in-out;
+  height: 100%;
 }
 .slider-items a {
   display: inline-block;
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 .slider-items img {
   display: block;
-  max-width: 100%;
-  height: 100%;
+  height: auto;
+  width: 1419px;
+  object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
